@@ -3,7 +3,7 @@
 }
 
  /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
+.accordion.mit {
   display: block;
   background-color: #A31F34;
   color: white;
@@ -18,8 +18,29 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active, .accordion.mit:hover {
   background-color: #8A8B8C;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion.princeton {
+  display: block;
+  background-color: black;
+  color: #F58025;
+  cursor: pointer;
+  margin: auto;
+  padding: 18px;
+  width: 25%;
+  text-align: center;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1.5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion.princeton:hover {
+  background-color: white;
+  color: #E77500;
 }
 
 /* Style the accordion panel. Note: hidden by default */
