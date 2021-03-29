@@ -1,0 +1,29 @@
+<div class="user-details">
+  <h1> Selected Coursework </h1>
+</div>
+<button class="accordion">Spring 2021</button>
+<div class="panel">
+  <ul>
+    <li>6.265 Discrete Probability and Stochastic Processes</li>
+  </ul>
+</div>
+<script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+  } 
+</script>
