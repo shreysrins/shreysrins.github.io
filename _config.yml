@@ -13,6 +13,6 @@ github_username: shreysrins
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "G-7GVV915TM7"
 
 exclude: ['package.json', 'src' , 'node_modules']
